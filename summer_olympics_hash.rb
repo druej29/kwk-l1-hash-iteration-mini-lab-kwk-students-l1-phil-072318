@@ -3,9 +3,10 @@ def create_olympics_hash
   # Implement this method so that it returns a hash with the data provided on README.md
   {
     olympic_place = ["Sydney", "Athens", "Beijing", "London"],
-    olympic_year = [2000, ]
+    olympic_year = [2000, 2004, 2008, 2012]
   }
 end
+puts create_olympics_hash
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
