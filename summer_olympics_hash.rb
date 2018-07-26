@@ -9,11 +9,11 @@ puts create_olympics_hash
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
-  create_olympics_hash = {"Sydney" => 2000, "Athens" => 2004, "Beijing" => 2008, "London" => 2012
+  add_a_key_value_pair = {"Sydney" => 2000, "Athens" => 2004, "Beijing" => 2008, "London" => 2012
   }
   olympic_place = "Atlanta"
   olympic_year = 1996
-  create_olympics_hash [olympic_place] = olympic_year
+  add_a_key_value_pair [olympic_place] = olympic_year
 end
 add_a_key_value_pair
 def iterate_through_hash
