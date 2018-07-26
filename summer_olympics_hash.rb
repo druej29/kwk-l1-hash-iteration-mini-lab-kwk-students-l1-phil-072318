@@ -2,7 +2,7 @@
 def create_olympics_hash
   # Implement this method so that it returns a hash with the data provided on README.md
   {
-    olympic_place[""]
+    olympic_place["Sydney", "Athens", "Beijing", ""]
   }
 end
 
